@@ -1,0 +1,26 @@
+# program to print inverted pyramid pattern.
+
+n = int(input("Enter the number of rows:"))
+
+i=1
+while n>0:
+    b=1
+    while b<i:
+        print(" ",end=" ")
+        b+=1
+    j=1
+    while j<=(n*2)-1:
+        print("*",end=" ")
+        j+=1
+    print()
+    n-=1
+    i+=1
+    
+    output=
+    
+    Enter the number of rows:5
+* * * * * * * * * 
+  * * * * * * * 
+    * * * * * 
+      * * * 
+        * 
