@@ -1,0 +1,26 @@
+# program to print inverted right angled pattern using while loop.
+
+
+n= int(input("Enter the number of rows:"))
+i=1
+while i<=n:                   # count for number of rows
+    b=1
+    while b<=n-i:             # count for number of spaces
+        print(" ",end=" ")
+        b+=1
+    j=1       
+    while j<=i:               # count for columns and print star
+        print("*",end=" ")
+        j+=1
+    print()
+    i+=1
+
+output=
+
+Enter the number of rows:6
+          * 
+        * * 
+      * * * 
+    * * * * 
+  * * * * * 
+* * * * * * 
